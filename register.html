@@ -1,0 +1,54 @@
+
+!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="registerstyle.css">
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap"="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <script src="REGISTER.js"></script>
+
+    </head>
+    <body>
+    <div class="container">
+        <div class="navbar">
+        <img src="images/lgl.png" class="logo">
+        <nav>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+            </ul>
+        </nav>
+       
+    </div>
+    </div>
+
+  <form action="process.php" method="POST"><center>
+    <div class="form-container">
+      <div class="personal-information">
+	  
+       <h1>Sign Up</h1>
+	  
+      </div> 
+           <div class="form">
+         <br/> <input id="column-left" type="text" name="first-name" placeholder="First Name"/><br/>
+          <input id="column-left" type="text" name="last-name" placeholder="Last Name"/><br/>
+          <input id="column-left" input type="phone" name="mobile" pattern="[0-9]{10}" placeholder="Eenter Mobile Number" required><br/>
+         
+          <div class="card-wrapper"> </div>
+      
+          <input id="input-field" type="email" name="email" required="required" autocomplete="on" maxlength="40" placeholder="Enter Email"/><br/>
+		  <input type="password" name="password" id="pwd" pattern="(?=.+[a-z]).{8,12}" placeholder="Enter password" required><br/>
+		  <input type="password" name="cn-password" id="cnfrmpwd" placeholder="Re-enter password" required><br/></div>
+		  <p style="color:white"> <input type="checkbox"  class="inputstyle" id="checkBox" onclick="enableButton()">  Accept privacy policy and Terms.</p></br>
+          <a href="C:\Users\user\Desktop\login\login.html"  style="text-decoration:none;"><button id="input-button" name="btn" type="button">Submit</button></a> <br/>
+		  <input id="input-button" type="submit" value="cancel"/>
+		
+         </center>
+		 
+    </form>
+	
+  </div>
+
+</body>
+
+</html>
+

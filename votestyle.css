@@ -1,0 +1,355 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+ 
+body{
+    background-image: url(images/bkgrnd.jpg);
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
+header>.container{
+    height: 23vh;
+    background: rgba(0,0,0,0.7);
+}
+.logo{
+    position: relative;
+    height:100px;
+    margin-top: 20px;
+    margin-left: 35px;
+    width: auto;
+   
+}
+
+.loginButton{
+    float: right;
+    height:5vh;
+    margin: 20px 20px;
+}
+.button{
+    font-size: 14px;
+    border: 2px solid #ff9d00;
+    border-radius: 20px;
+    padding:5px 20px;
+    color: #ff9d00;
+    transition: 0.5s ease;
+}
+.button:hover{
+    background-color:#ff9d00;
+    color: #fff;
+}
+
+.menu{
+    position: relative;
+    height: 7vh;
+    margin-right: 150px;
+    margin-top: 80px;
+    font-size: 18px;
+    float: right;
+    list-style-type: none;  
+}
+ul li.nav{
+    display: inline-block;
+}
+
+ul li.nav a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 4px 30px;
+    border-radius: 20px;
+    transition: 0.5s ease;
+}    
+
+ul li.nav a:hover{
+    background-color:#ff9d00;
+    color:#fff;
+}
+ul li .active {
+    background-color: #ff9d00;
+    color: #fff;
+}
+.logo img{
+    float:left;
+    width:150px;
+    height: auto;
+}
+h1{
+    height: fit-content;
+    width: 680px;
+    margin:70px 100px;
+    font-weight: bold;
+    font-size: 59px;
+    color: cornsilk;
+    
+}
+h2{
+    height: fit-content;
+    width: 470px;
+    margin:10px 100px;
+    color: whitesmoke;
+    font-size: 35px;
+}
+
+h3{
+    min-height: fit-content;
+    margin: 90px 90px;
+    font-weight: bold;
+    font-size: 25px;
+    color:#ffffff;
+}
+
+.footerContent{
+    position: relative;
+    background:rgba(71, 71, 71, 0.589);
+    height: 160px;
+   
+}
+.socialTags{
+
+    margin: 50px 530px;
+    height: 40px;
+}
+.socialmedia a{
+    display: inline-block;    
+    height: 45px;
+    width: 45px;
+    background-color: rgba(15, 14, 14, 0.719);
+    margin: 30px 20px 20px 0;
+    text-align:center;
+    line-height:30px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    
+}
+.socialmedia a i{
+    margin: 15px;
+    color:#ffffff;
+}
+.socialmedia a:hover{
+    color:#ffffff;
+    background-color:#ff9d00;
+}
+.footer-about{
+    position: relative;
+}
+.contact{
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    color:#bebebe;
+}
+h4{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+.text{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+.footerBottom{
+    color: #ff9d00;
+    background-color: black;
+    font-size:12.5px;
+    text-align:center;
+}
+
+/*--------------------------------*/
+
+.award{
+    height: 150px;
+    border: 2px orange solid;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.line-image{
+    position: relative;
+    margin-left: 250px;
+    margin-top: 15px;
+    transition: 0.3s all;
+}
+
+.line-image:hover{
+  z-index: 1;
+  transform: scale(1.05);
+}
+
+
+/* ******************************* */
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    padding: 2px 0;
+    align-items: center;
+    margin: 2rem;
+  }
+  
+  .card {
+    width: 15rem;
+    border: 3px solid white;
+    border-bottom: 0px;
+    overflow: hidden;
+    box-shadow: 5px 5px 3px var(--white);
+    cursor: pointer;    
+    margin: 2rem;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 20px;
+    transition: 0.5s;
+  }
+
+  .card:hover{
+    transform: translateY(-1rem);
+  }
+  
+  .card:first-of-type {
+    margin-bottom: 2rem;
+  }
+  
+  .card-image {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    vertical-align: middle;
+    border-bottom: 2px white solid;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+    
+  .card-info {
+    display: flex;
+    justify-content: space-evenly;
+    background: repeat;
+    padding: 2rem 0;
+    color: orange;
+  }
+    
+  .votes-text {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+
+  .line {
+    width: 0.1rem;
+    background: whitesmoke;
+  }
+  
+
+  .candidate-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: text;
+  }
+  
+  .candidate-name {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    
+  }
+  
+  .candidate-party {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+
+  .card-btn {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1.5rem 0;
+    color: var(--white);
+    cursor: pointer;
+    border-top: 2px solid var(--black);
+    transition: 0.5s;
+  }
+
+  .card-btn:hover{
+    z-index: 1;
+    transform: scale(1.25);
+
+  }
+  
+  .btn-ariana,
+  .btn-bieber,
+  .btn-dua,
+  .btn-drake,
+  .btn-billie,
+  .btn-khaled,
+  .btn-lil,
+  .btn-luke,
+  .btn-monkey,
+  .btn-weeknd {
+    background: white;
+    border-radius: 50px;
+    transition: 0.5s;
+  }
+
+  
+  
+  /*------------------************************--------*/
+
+
+  .cards1{
+    flex-direction: row;
+    display: flex;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .card1{
+    width: 15rem;
+    border: 2px solid white;
+    border-bottom: 0px;
+    overflow: hidden;
+    box-shadow: 5px 5px 3px var(--white);
+    cursor: pointer;    
+    margin: 2rem;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 20px;
+    transition: 0.5s;
+  }
+
+  .card1:hover{
+    transform: translateY(-1rem);
+  }
+  .container1 {
+    color:red;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .container1 li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+   
+  }
+  
+  .container1 li span {
+    display: block;
+    font-size: 4.5rem;
+  }
+  
+  .headline-count{
+    color:orange;
+    padding: 0;
+    margin: 0;
+    margin-left: 80px;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+    
+  }

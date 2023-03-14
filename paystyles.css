@@ -1,0 +1,271 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bkgrnd.jpg);
+    background-position: center ;
+    background-size: cover;
+    color: #ff9d00;
+}
+.tost{
+    margin-right: 100px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+.panel {
+    width: 50%;
+    margin: 2em auto;
+  }
+  
+  
+  .panel-body {
+    width: 90%;
+    margin: 2em auto;
+    
+  }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Crimson+Pro',sans-serif;
+}
+
+header>.container{
+    height: 23vh;
+    background: rgba(0,0,0,0.7);
+}
+.logo{
+    position: relative;
+    height:100px;
+    margin-top: 20px;
+    margin-left: 35px;
+    width: auto;
+   
+}
+.loginButton{
+    float: right;
+    height:5vh;
+    margin: 20px 20px;
+
+}
+.button{
+    font-size: 14px;
+    border: 2px solid #ff9d00;
+    border-radius: 20px;
+    padding:5px 20px;
+    color: #ff9d00;
+    transition: 0.5s ease;
+}
+.button:hover{
+    background-color:#ff9d00;
+    color: #fff;
+}
+
+.menu{
+    position: relative;
+    height: 7vh;
+    margin-right: 150px;
+    margin-top: 80px;
+    font-size: 18px;
+    float: right;
+    list-style-type: none;  
+}
+ul li.nav{
+    display: inline-block;
+}
+
+ul li.nav a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding:5px 30px;
+    border-radius: 20px;
+    transition: 0.5s ease;
+}    
+
+ul li.nav a:hover{
+    background-color:#ff9d00;
+    color:#fff;
+}
+ul li .active {
+    background-color: #ff9d00;
+    color: #fff;
+}
+.logo img{
+    float:left;
+    width:150px;
+    height: auto;
+}
+
+
+.footerContent{
+    position: relative;
+    background:rgba(71, 71, 71, 0.589);
+    color: antiquewhite;
+    height: 160px;
+    margin-top:100px;
+    
+
+   
+}
+.socialTags{
+
+    margin: 50px 530px;
+    height: 40px;
+}
+.socialmedia a{
+    display: inline-block;    
+    height: 45px;
+    width: 45px;
+    background-color: rgba(15, 14, 14, 0.719);
+    margin: 30px 20px 20px 0;
+    text-align:center;
+    line height: 30px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    
+}
+.socialmedia a i{
+    margin: 15px;
+    color:#ffffff;
+}
+.socialmedia a:hover{
+    color:#ffffff;
+    background-color:#ff9d00;
+}
+.footer-about{
+    position: relative;
+    
+   
+}
+.contact{
+    margin-bottom: 10px;
+    margin-left: 70px;
+}    
+
+.footerBottom{
+    background-color: black;
+    font-size:12.5px;
+    text-align:center;
+  
+
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+    height: 20px;
+    letter-spacing: 1px;
+  }
+  .form-group{
+     
+      width: 100%;
+      padding: 14px 10px 14px 5px;
+  }
+ 
+  input[type="text"]{
+    display: block;
+    height: 50px;
+    width: 97%;
+    margin-right: 100px;
+    
+   
+  }
+  input[type="number"]{
+    display: block;
+    height: 50px;
+    width: 97%;
+   
+  }
+  input[type="submit"]{
+    display: block;
+    height: 60px;
+    width: 100%;
+    border: none;
+    background-color:#ff9d00;
+    color: #fff;
+    margin-top: 2px;
+    curson: pointer;
+    font-size: 1.9em;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    width: 45%;
+    margin-top: 35px;
+
+    
+
+  
+    
+    
+  }
+  input[type="submit"]:hover{
+    background-color: #ff9d00;
+    transition: 0.3s ease;
+  }
+  .CardHolderName {
+    width: 46.5%;
+    float: left;
+    margin-bottom: 2px;
+  }
+  .CardNumber {
+    width: 46.5%;
+    float: right;
+  }
+
+  
+.body-text {
+    padding: 0 20px 30px 20px;
+    font-family: "Roboto";
+    font-size: 1em;
+    color: #333;
+    text-align: center;
+    line-height: 1.2em;
+  }
+  .form-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .radio-inline{
+      margin-right: 4px;
+  }
+  h2{
+      background-color: #ff9d00;
+      color: #fff;
+      font-family: 15px;
+      padding: 10px;
+      margin-bottom: 20px;
+      text-align: center;
+      border: 1px;
+      width: 95%;
+      margin-top: 30px;
+
+  }
+  input[type="submit1"]{
+    display: block;
+    height: 60px;
+    width: 100%;
+    border: none;
+    background-color:#ff9d00;
+    color: #fff;
+    margin-top: 2px;
+    curson: pointer;
+    font-size: 1.9em;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    width: 40%;
+    margin-top:-59px;
+    text-align: center;
+    margin-left: 58%;
+    
+
+  
+    
+    
+  }
+  

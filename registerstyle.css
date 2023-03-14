@@ -1,0 +1,185 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900,700,500);
+
+body {
+  padding: 60px 0;
+  background-color: rgba(178,209,229,0.7);
+  margin: 0 auto;
+  width: 600px;
+  background-image: url(images/bkgrnd.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.navbar{
+    height:60%;
+    display:flex;
+    align-items: center;
+}
+.logo{
+    width: 350px;
+    cursor: pointer;
+    margin-top: -30px;
+
+}
+nav{
+    flex: 7;
+    text-align: right;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color:#ff9d00;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.form-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.personal-information {
+  background-color:#ff9d00;
+  color: #fff;
+  padding: 1px 0;
+  text-align: center;
+  height: 50px;
+  width: 97%;
+  border: none;
+  
+}
+.card-wrapper {
+  background-color:#ff9d00;
+  width: 100%;
+  display: flex;
+  
+
+}
+
+h1 {
+  font-size: 1.2em;
+  font-family: "Roboto";
+ 
+}
+input {
+  margin: 1px 0;
+  padding-left: 3%;
+  font-size: 14px;
+}
+input[type="text"]{
+  display: block;
+  height: 50px;
+  width: 97%;
+  border: none;
+}
+input[type="phone"]{
+  display: block;
+  height: 50px;
+  width: 97%;
+  border: none;
+}
+input[type="password"]{
+  display: block;
+  height: 50px;
+  width: 97%;
+  border: none;
+}
+
+
+
+
+input[type="email"]{
+  display: block;
+  height: 50px;
+  width: 97%;
+  border: none;
+}
+input[type="submit"]{
+  display: block;
+  height: 50px;
+  width: 50%;
+  border: none;
+  background-color:#ff9d00;
+  color: #fff;
+  margin-top: 2px;
+  curson: pointer;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+input[type="submit"]:hover{
+  background-color: #ff9d00;
+  transition: 0.3s ease;
+ 
+}
+
+button[type="button"]{
+  display: block;
+  height: 50px;
+  width: 50%;
+  border: none;
+  background-color:#ff9d00;
+  color: #fff;
+  margin-top: 2px;
+  curson: pointer;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+button[type="button"]:hover{
+  background-color: #ff9d00;
+  transition: 0.3s ease;
+ 
+}
+
+
+  
+
+
+
+@media only screen and (max-width: 480px){
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .form-container {
+    margin: 0 2%;
+  }
+  input {
+    font-size: 1em;
+  }
+  #input-button {
+    width: 100%;
+  }
+   #input-submit {
+    width: 100%;
+  }
+  #input-field {
+    width: 96.5%;
+  }
+  h1 {
+    font-size: 1.2em;
+  }
+  input {
+    margin: 2px 0;
+  }
+  input[type="submit"]{
+    height: 50px;
+  }
+  button {
+    margin: 2px 0;
+  }
+  button[type="button"]{
+    height: 50px;
+  }
+ 
+  #column-right {
+    width: 50.5%;
+    display: block;
+    float: none;
+  }
+}

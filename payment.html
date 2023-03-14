@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="paystyles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+  <body>
+    <header>
+        <div class="container">
+            <div class="loginButton">
+                <a href="home.html" class="button">Home</a>
+                <a href="events.html" class="button">Events</a>
+            </div>
+
+                <img class="logo" src="images/lgl.png">
+
+            <ul class="menu">
+            
+              
+               
+                 
+            </ul>
+        </div>
+    </header>
+   
+    <div class="container1">
+      <div class="row col-md-6 col-md-offset-3">
+        <div class="panel panel-primary">
+          <div class="panel-heading text-center">
+            <h1>Payment Form</h1>
+          </div>
+          <div class="panel-body">
+            <form action="connect.php" method="post">
+              <div class="form-group">
+                <label for="CardHolderName">Card Holder Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="CardHolderName"
+                  name="CardHolderName"
+                  
+                />
+              </div>
+              <div class="form-group">
+                <label for="CardNumber">Card Number</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="CardNumber"
+                  name="CardNumber"
+                />
+              </div>
+              <div class="form-group">
+                <label for="CardType">Card Type</label>
+                <div>
+                  <label for="credit card" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="CardType"
+                      value="c"
+                      id="credit card"
+                    />Credit card</label
+                  >
+                  <label for="debit card" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="CardType"
+                      value="d"
+                      id="credit card"
+                    />Debit card</label
+                  >
+                  <label for="others" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="CardType"
+                      value="o"
+                      id="others"
+                    />Others</label
+                  >
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="CardCVC">Card CVC</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="CardCVC"
+                  name="CardCVC"
+                />
+              </div>
+              <div class="form-group">
+                <label for="CardExpireDate">Card Expire Date</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="CardExpireDate"
+                  name="CardExpireDate"
+                />
+              </div>
+              <div class="form-group">
+                <label for="TicketCount">Ticket Count</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="TicketCount"
+                  name="TicketCount"
+                />
+              </div>
+               <h2>Total Amount = $5</h2>
+               <div class="input-group">
+             <div class="input box">
+              <input type="submit" id="pay"  value="PAY " />
+              <input type="submit1" id="cancel"  value="CANCEL " />
+              </div>
+              </div>
+            </form>
+           
+            
+          </div>
+          <div class="panel-footer text-right">
+            <small>&copy; UMA</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+<footer>
+    <div class="footerContent">
+      <div class="socialTags">
+          <div class="socialmedia">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+      </div>
+      <div class="footer-about">
+          <div class="contact">
+              <h4>Contact Us</h4>
+              <div class="phone">
+                  <span class="fas fa-phone"></span>
+                  <span class="text">+94 71 258 8935</span>
+              </div>
+              <div class="email">
+                  <span class="fas fa-envelope"></span>
+                  <span class="text">umawards99@gmail.com</span>
+              </div>
+              
+          </div>
+      </div>
+
+      <div class="footerBottom">
+          &copy; UMawards.com (All Rights Reserved) | Designed by MLB02.01.09 team
+      </div>    
+    </div> 
+  </footer>
+  </body>
+</html>
